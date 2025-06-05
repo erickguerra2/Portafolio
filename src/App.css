@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body.dark-mode {
+  background-color: #0b1626 !important;
+  color: #71869e !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .navbar {
+  background-color: #12243e !important;
+  border-bottom: 1px solid #223455 !important;
+}
+
+body.dark-mode a.nav-link {
+  color: #71869e !important;
+  transition: color 0.3s ease;
+}
+body.dark-mode a.nav-link:hover {
+  color: #4f6680 !important;
+}
+
+body.dark-mode .btn-outline-secondary {
+  color: #71869e !important;
+  border-color: #2e3e59 !important;
+  background-color: transparent !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+body.dark-mode .btn-outline-secondary:hover {
+  background-color: #2e3e59 !important;
+  color: #596a86 !important;
+  border-color: #2e3e59 !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .bg-light {
+  background-color: #12243e !important;
+  color: #71869e !important;
+  border-color: #223455 !important;
+}
+
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h5 {
+  color: #5b6b81 !important;
+}
+
+body.dark-mode .shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(15, 30, 50, 0.7) !important;
+}
+
+body.dark-mode ::-webkit-scrollbar {
+  width: 8px !important;
+}
+body.dark-mode ::-webkit-scrollbar-track {
+  background: #0b1626 !important;
+}
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background-color: #223455 !important;
+  border-radius: 4px !important;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: #12243e !important;
+  color: #71869e !important;
+  border: 1px solid #223455 !important;
+}
+
+body.dark-mode .badge-secondary {
+  background-color: #2e3e59 !important;
+  color: #5b6b81 !important;
+}
+
+body.dark-mode .section-bg {
+  background-color: #12243e !important;
+  color: #71869e !important;
+}
+
+.subtitle-mode {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+body.dark-mode .subtitle-mode {
+  color: #d0e7ff !important;
+}
+
